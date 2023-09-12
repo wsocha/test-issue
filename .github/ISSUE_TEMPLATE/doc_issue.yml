@@ -1,0 +1,38 @@
+name: API Reference Error Report
+description: File an error report
+title: "[Error]: "
+labels: ["documentation"]
+body:
+  - type: textarea
+    attributes:
+      label: Description of the issue
+      description: Description of what issue you have discovered. Please include as to why you think the issue is an issue.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Current content
+      description: What does the specification currently say?
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Expected content
+      description: What does the specification currently say?
+    validations:
+      required: false
+  - type: checkboxes
+    attributes:
+      label: Are you a Boxer?
+      options:
+        - label: Yes, I am
+          required: true
+  - type: input
+    id: url
+    attributes:
+      label: Link to documentation page
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: "Thanks for completing our form!"
