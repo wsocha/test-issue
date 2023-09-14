@@ -1,6 +1,5 @@
-name: API Reference Error Report
-description: File an error report
-title: "[Error]: "
+name: API documentation error
+description: Report a typo or error found in API documentation
 labels: ["documentation"]
 body:
   - type: textarea
@@ -18,19 +17,13 @@ body:
   - type: textarea
     attributes:
       label: Expected content
-      description: What does the specification currently say?
+      description: What do you think the specification should say instead?
     validations:
       required: false
-  - type: checkboxes
-    attributes:
-      label: Are you a Boxer?
-      options:
-        - label: Yes, I am
-          required: true
   - type: input
     id: url
     attributes:
-      label: Link to documentation page
+      label: Link to the documentation page
     validations:
       required: false
   - type: markdown
