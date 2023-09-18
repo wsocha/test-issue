@@ -1,4 +1,4 @@
-name: API documentation error
+name: API documentation feedback
 description: Report a typo or error found in API documentation
 labels: ["documentation"]
 body:
