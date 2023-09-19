@@ -2,5 +2,7 @@ blank_issues_enabled: false
 contact_links:
   - name: Box Developer Forums
     url: https://community.box.com/t5/Platform-and-Development-Forum/bd-p/DeveloperForum
+    about: Before creating an issue, I have searched the Box Developer Forums and my issue isn't already reported there.
   - name: API documentation
     url: https://developer.box.com/docs
+    about: Before creating an issue, I have checked that the API documentation doesn't solve my issue.
